@@ -1,0 +1,12 @@
+$blue:    #1565D8 !default;
+@import "node_modules/bootstrap/scss/bootstrap";
+
+div.alert[role='alert']{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 350px;
+    max-width: 350px;
+    z-index: 1000;
+    margin-top: 20px;
+}

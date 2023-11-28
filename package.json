@@ -1,0 +1,35 @@
+{
+  "name": "page",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.9.0",
+    "jwt-decode": "^3.1.2",
+    "vee-validate": "^3.4.5",
+    "vue": "^2.6.12",
+    "vue-core-video-player": "^0.2.0",
+    "vue-router": "^3.5.1",
+    "vue2-editor": "^2.10.3",
+    "vuelidate": "^0.7.6",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-plugin-vuex": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.3.2",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

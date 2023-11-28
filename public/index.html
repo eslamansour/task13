@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>logo.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>لوحة الاعدادات</title>
+    <style>
+      @font-face {
+        font-family: "cairo-bold";
+        src: url("../src/assets/fonts/Cairo-Bold.ttf");
+      }
+      @font-face {
+        font-family: "cairo-regular";
+        src: url("../src/assets/fonts/Cairo-Regular.ttf");
+      }
+      body {
+        font-family: "cairo-regular" !important;
+        background-color: #fcfcfc !important;
+
+      }
+
+      /* width */
+      ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #ebebeb;
+        
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #a7abaf; 
+        border-radius: 3px;
+        transition: 2s;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #535a64; 
+      }
+    </style>
+  </head>
+  <body>
+    <h4 style="display:none;text-align:center;">
+      <br>
+      UI/UX designer and Frontend developer >> <a href="mailto:eslam.mansour15@gmail.com">eslam.mansour15@gmail.com</a>
+      <br>
+      Linked-in >> <a href="https://www.linkedin.com/in/eslamansour/">eslamansour</a>
+      <br>
+    </h4>
+
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+  </body>
+</html>
